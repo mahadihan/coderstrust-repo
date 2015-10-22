@@ -1,0 +1,357 @@
+*{margin: 0px;padding: 0px;}
+
+body{
+    font-family: Verdana;
+    min-width: 100%;
+    min-height: 1000px;
+    float: left;
+    background: -webkit-linear-gradient(#E7E5EB,#ffffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #E7E5EB,#ffffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E7E5EB,#ffffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E7E5EB,#ffffff); /* Standard syntax */
+}
+/*------------------------------
+  ========  Header   ===========
+  ------------------------------*/
+header{
+    min-width: 80%;
+    min-height: 70px;
+    background-color: #00AAA0;
+    position: fixed;
+    margin-left: 10%;
+    float: left;
+}
+.logo{
+    min-width: 10%;
+    min-height: 70px;
+    margin-left: 3%;
+    float: left;
+    animation: changeSize 3s ease-in 2s infinite;
+    -moz-animation: changeSize 3s ease-in 2s infinite;
+    -webkit-animation: changeSize 3s ease-in 2s infinite;
+}
+@@keyframes changeSize{
+    0% {transform: scale(1)}
+	65% {transform: scale(1.2)}
+	100% {transform: scale(1.4)}
+}
+@-moz-keyframes changeSize{
+    0% {transform: scale(1)}
+	65% {transform: scale(1.2)}
+	100% {transform: scale(1.4)}
+}
+@-webkit-keyframes changeSize{
+    0% {transform: scale(1)}
+	65% {transform: scale(1.2)}
+	100% {transform: scale(1.4)}
+}
+nav{
+    min-width: 35%;
+    height: auto;
+    float: right;
+    display: block;
+}
+nav ul{ 
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration:none;
+    display: block;
+    padding: 20px; 25px;
+    color: #FCF4D9;
+}
+nav ul li a:hover{
+    text-decoration: overline;
+    color: #cccccc;
+}
+
+#main{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 74px;
+}
+/*------------------------------
+  =========== Banner ===========
+  ------------------------------*/
+.banner{
+    width: 100%;   
+    display: block;
+    float: left;
+    transition: 3s;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+.banner:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    
+}
+.marq{
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+.marq p{
+    margin-top: 12px;
+    font-size: 20px;
+    color: #474E69;
+    font-style: vardama, thoma,sans-serif;
+}
+/*------------------------------
+  ======== container ===========
+  ------------------------------*/
+.container{
+    max-width: 80%;
+    min-height: 400px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+.content1{
+    max-width: 32%;
+    height: 300px;
+    background-color: white;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.content1 img{
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.content1  p{
+    font-size: 13px;
+    font-style: vardama, thoma,sans-serif;
+    margin-right: 2%;
+    color: #999999;
+    text-decoration: none;
+    margin-left: 1%;
+}
+.content1 a {
+    color: #00AAA0;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.content2{
+    max-width: 28%;
+    height: 300px;
+    background-color: white;
+    display: block;
+    float: left;
+    margin-left: 5%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.content2 img{
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.content2  p{
+    font-size: 13px;
+    font-style: vardama, thoma,sans-serif;
+    margin-right: 2%;
+    margin-left: 1%;
+    color: #999999;
+    text-decoration: none;
+}
+.content2 a {
+    color: #00AAA0;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.content3{
+    max-width: 30%;
+    height: 300px;
+    background-color: white;
+    display: block;
+    float: right;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.content3 img{
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.content3  p{
+    font-size: 13px;
+    font-style: vardama, thoma,sans-serif;
+    margin-right: 2%;
+    margin-left: 1%;
+    color: #999999;
+    text-decoration: none;
+}
+.content3 a {
+    color: #00AAA0;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.more{
+    width: 15%;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    background-color: #462066;
+    border-radius: 3px;
+}
+.more:hover{opacity: 0.8;}
+.more a{
+    float: left;
+    margin-left: 20%;
+    text-decoration: none;
+    color: #fff;
+}
+.signin input{
+    width: 300px;
+    float: left;
+    margin-left: 37%;
+    margin-top: 20px;
+    background-color: #462066;
+    color: #fff;
+}
+
+/*------------------------------
+  ======= Form map foter =======
+  ------------------------------*/
+.formsnmap{
+    min-width: 80%;
+    min-height: 300px;
+    display: block;
+    float: left;
+    margin-left: 10%;
+    clear: both;
+}
+/*------------------------------
+  ========= form style =========
+  ------------------------------*/
+.forms{
+    min-width: 30%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    display: block;
+    margin: 5px 0px;
+    font-size: 13px;
+    font-style: vardama, thoma,sans-serif;
+}
+.forms h2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #474E69;
+}
+
+/*------------------------------
+  ========= form style =========
+  ------------------------------*/
+input, textarea{
+    padding: 10px;
+    border:1px solid #E5E5E5;
+    width: 150px;
+    color: #999999;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    max-width:300px;
+    line-height: 15px;
+}
+input:hover,textarea:hover,
+input:focus,textarea:focus{
+    border: 1px solid #c9c9c9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+form level{
+    margin-left: 10px;
+    color: #999999;
+}
+
+/*------------------------------
+  ========= submit input ========
+  ------------------------------*/
+.submit input{
+    width: 100px;
+    height: 40px;
+    background-color: #462066;
+    color: #fff;
+    border-radius: 5px;
+}
+/*------------------------------
+  =========== go map ===========
+  ------------------------------*/
+.map{
+    width: 56%;
+    height: auto;
+    float: right;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.map h2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #474E69;
+}
+
+/*------------------------------
+  =========== footer ===========
+  ------------------------------*/
+
+footer{
+    width: 80%;
+    height: 75px;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    background-color: #E8E6EC;
+    border-radius: 10px;
+}
+footer p{
+    color: #474E69;
+}
+.copyright{
+    margin-left: 42%;
+    margin-top: 30px;
+}
+.copyright a{
+    color:#462066;
+    text-decoration: none;
+    font-style: vardama, thoma,sans-serif;
+}
+.copyright a:hover{
+    text-decoration: overline;
+}
